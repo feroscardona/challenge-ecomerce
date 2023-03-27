@@ -1,0 +1,29 @@
+.card__container li h3{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color:var(--tituloSeccion);
+    margin: 8px 0;
+}
+
+.card__container li p{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--tituloSeccion);
+    margin: 8px 0;
+}
+
+.card__container li samp{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color:var(--tituloSeccion);
+    margin: 8px 0;
+}

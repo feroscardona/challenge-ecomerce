@@ -1,0 +1,10 @@
+.buscador{
+    order: 1;
+}
+
+@media screen and (min-width: 767px) {
+    .buscador{
+        order:0;
+        
+    }
+}

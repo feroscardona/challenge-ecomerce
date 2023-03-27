@@ -1,0 +1,26 @@
+.card__btn {
+    margin: 5px;
+    height: 18px;
+    width: 14px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+ .eliminar{
+
+    background-image: url(../../imagenes/basurero.png);
+    background-color: transparent ;
+    background-size: contain;
+}
+
+ .editar{
+    background-image: url(../../imagenes/lapisEditar.png);
+    background-color: transparent ;
+    background-size: contain;
+}
+.card__btn:hover{
+    transform: scale(1.2);
+    
+}

@@ -1,0 +1,14 @@
+.producto__titulo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--tituloSeccion);
+}
+
+@media screen and (min-width: 1068px) {
+    .producto__titulo{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

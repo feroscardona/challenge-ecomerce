@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuTiendaLogin</title>
+    <link rel="stylesheet" href="css_login/reset.css">
+    <link rel="stylesheet" href="css_login/colores y fuentes.css">
+    <link rel="stylesheet" href="css_login/body.css">
+    <link rel="stylesheet" href="css_login/header.css">
+    <link rel="stylesheet" href="css_login/logo_img.css">
+    <link rel="stylesheet" href="css_login/buscador/buscador.css">
+    <link rel="stylesheet" href="css_login/buscador/buscador__contenedor.css">
+    <link rel="stylesheet" href="css_login/buscador/buscador__input.css">
+    <link rel="stylesheet" href="css_login/buscador/buscador__boton.css">
+    <link rel="stylesheet" href="css_login/inicioSesion/inicioSesion.css">
+    <link rel="stylesheet" href="css_login/inicioSesion/form__inicioSesion.css">
+    <link rel="stylesheet" href="css_login/inicioSesion/legend__inicioSesion.css">
+    <link rel="stylesheet" href="css_login/inicioSesion/fieldset__inicioSesion.css">
+    <link rel="stylesheet" href="css_login/inicioSesion/input__inicioSesion.css">
+    <link rel="stylesheet" href="css_login/inicioSesion/btn__inicoSesion.css">
+    <link rel="stylesheet" href="css_login/rodapie.css">
+    <link rel="stylesheet" href="css_login/info/info.css">
+    <link rel="stylesheet" href="css_login/info/info__imagen.css">
+    <link rel="stylesheet" href="css_login/info/info__lista.css">
+    <link rel="stylesheet" href="css_login/formulario/formulario.css">
+    <link rel="stylesheet" href="css/formulario/formulario__fielset.css">
+    <link rel="stylesheet" href="css_login/formulario/formulario__titulo.css">
+    <link rel="stylesheet" href="css_login/formulario/formulario__contenedor.css">
+    <link rel="stylesheet" href="css_login/formulario/formulario__input.css">
+    <link rel="stylesheet" href="css_login/formulario/formulario__boton.css">
+    <link rel="stylesheet" href="css_login/footer/footer.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img class="logo_img" src="imagenes/Logo.svg" alt="logo"></a>
+        <form action="" class="buscador">
+            <fieldset class="buscador__contenedor">
+                <input class="buscador__input" type="search" placeholder="¿Qué deseas buscar?">
+                <button class="buscador__boton"><img src="imagenes/lupa-busqueda.svg" alt="buscar?"></button>
+            </fieldset>
+        </form>
+    </header>
+    <section class="inicioSesion">
+        <form action="" class="form__inicioSesion" data-login>
+            <legend class="legend__inicioSesion">Iniciar Sesión</legend>
+            <fieldset class="fieldset__inicioSesion">
+                <div>
+                    <input class="input__inicioSesion" type="email" name="email" id="email"data-input="email" placeholder="Escriba su correo electrónico" required>
+                </div>
+                <div>
+                    <input class="input__inicioSesion" type="password" name="contraseña" id="contraseña"data-input="contraseña" placeholder="Escriba su contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" title="su contraseña debe contener mayusculas minusculas numero y caracter especial(@$!%*?&)">
+                </div>
+               
+               
+            </fieldset>
+            <button type="submit" class="btn__inicoSesion">Entrar</button>
+        </form>
+    </section>
+    <section class="rodapie">
+        <div class="info">
+            <img class="info__imagen" src="imagenes/Logo.png" alt="logo_img">
+            <ul class="info__lista">
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Política de privacidad</a></li>
+                <li><a href="">Programa de fidelidad</a></li>
+                <li><a href="">Nuestras Tiendas</a></li>
+                <li><a href="">Quiero ser franquiciado</a></li>
+                <li><a href="">Anúncie aquí</a></li>
+            </ul>
+        </div>
+      
+        
+        <form action="" class="formulario">
+            <fieldset class="formulario__fielset">
+                <legend class="formulario__titulo">Hable con nosotros</legend>
+                <div class="formulario__contenedor">
+                    <input class="formulario__input" type="text" name="name" id="name" placeholder="Nombre" required>
+                    <span class="formulario__spam"></span>
+                </div>
+                <div class="formulario__contenedor">
+                    <input class="formulario__input inpMensaje" type="text" name="mensaje" id="mensaje" placeholder="Escrive tu mensaje" required >
+                    <span class="formulario__spam"></span>
+                </div>
+                
+            </fieldset>
+            <button class="formulario__boton">Enviar mensaje</button>
+        
+        </form>
+    
+    </section>
+       <footer class="footer">
+        <h2 class="nombre__footer">Desarrollado por Oscar Cardona</h2>
+        <p class="fecha__footer">2023</p>
+       </footer>
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <script src="service/login_service.js"></script>
+</body>
+</html>

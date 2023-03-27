@@ -1,0 +1,7 @@
+.inicioSesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--buscador);
+    height: 400px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuTiendaProductos</title>
+    <link rel="stylesheet" href="css_productos/reset.css">
+    <link rel="stylesheet" href="css_productos/body.css">
+    <link rel="stylesheet" href="css_productos/colores y fuentes.css">
+    <link rel="stylesheet" href="css_productos/header.css">
+    <link rel="stylesheet" href="css_productos/logo_img.css">
+    <link rel="stylesheet" href="css_productos/buscador/buscador.css">
+    <link rel="stylesheet" href="css_productos/buscador/buscador__contenedor.css">
+    <link rel="stylesheet" href="css_productos/buscador/buscador__input.css">
+    <link rel="stylesheet" href="css_productos/buscador/buscador__boton.css">
+    <link rel="stylesheet" href="css/buscador/buscador__respuesta.css">
+    <link rel="stylesheet" href="css_productos/productos/productos.css">
+    <link rel="stylesheet" href="css_productos/productos/producto__nav.css">
+    <link rel="stylesheet" href="css_productos/productos/producto__titulo.css">
+    <link rel="stylesheet" href="css_productos/productos/producto__btn.css">
+    <link rel="stylesheet" href="css_productos/card/card__container.css">
+    <link rel="stylesheet" href="css_productos/card/card__container_btn.css">
+    <link rel="stylesheet" href="css_productos/card/card__btn.css">
+    <link rel="stylesheet" href="css_productos/card/card__img.css">
+    <link rel="stylesheet" href="css_productos/card/card-h3-p-span.css">
+
+
+    <link rel="stylesheet" href="css_productos/rodapie.css">
+    <link rel="stylesheet" href="css_productos/info/info.css">
+    <link rel="stylesheet" href="css_productos/info/info__imagen.css">
+    <link rel="stylesheet" href="css_productos/info/info__lista.css">
+    <link rel="stylesheet" href="css_productos/formulario/formulario.css">
+    <link rel="stylesheet" href="css_productos/formulario/formulario__fielset.css">
+    <link rel="stylesheet" href="css_productos/formulario/formulario__titulo.css">
+    <link rel="stylesheet" href="css_productos/formulario/formulario__contenedor.css">
+    <link rel="stylesheet" href="css_productos/formulario/formulario__input.css">
+    <link rel="stylesheet" href="css_productos/formulario/formulario__boton.css">
+    <link rel="stylesheet" href="css_productos/footer/footer.css">
+</head>
+<body>
+    <header>
+        <img class="logo_img" src="imagenes/Logo.svg" alt="logo">
+        <form action="" class="buscador">
+            <fieldset class="buscador__contenedor">
+                <input data-buscador  class="buscador__input" type="search" placeholder="¿Qué deseas buscar?">
+                <button data-btn="buscador"  class="buscador__boton"><img src="imagenes/lupa-busqueda.svg" alt="buscar?"></button>
+            </fieldset>
+        </form>
+
+
+    </header>
+   
+    <div data-crea>
+        <ul class="buscador__respuesta" data-busqueda> 
+    </div>
+    <section class="productos">
+        <div class="producto__nav">
+            <h2 class="producto__titulo">Todos los produtos</h2>
+            <a href="./agre_Productos.html"><button class="producto__btn">Agregar producto</button></a>
+        </div>
+        
+            <ul class="card__container"data-card>
+                
+            <!-- espacio para producto-controller -->
+            </ul>     
+        
+       
+
+
+    </section>
+    
+    <section class="rodapie">
+        <div class="info">
+            <img class="info__imagen" src="./imagenes/Logo.svg" alt="logo_img">
+            <ul class="info__lista">
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Política de privacidad</a></li>
+                <li><a href="">Programa de fidelidad</a></li>
+                <li><a href="">Nuestras Tiendas</a></li>
+                <li><a href="">Quiero ser franquiciado</a></li>
+                <li><a href="">Anúncie aquí</a></li>
+            </ul>
+        </div>
+      
+        
+        <form action="" class="formulario">
+            <fieldset class="formulario__fielset">
+                <legend class="formulario__titulo">Hable con nosotros</legend>
+                <div class="formulario__contenedor">
+                    <input class="formulario__input" type="text" name="name" id="name" placeholder="Nombre" required maxlength="40">
+                    <span class="formulario__spam"></span>
+                </div>
+                <div class="formulario__contenedor">
+                    <input class="formulario__input inpMensaje" type="text" name="mensaje" id="mensaje" placeholder="Escrive tu mensaje" required maxlength="120">
+                    <span class="formulario__spam"></span>
+                </div>
+                
+            </fieldset>
+            <button class="formulario__boton">Enviar mensaje</button>
+        
+        </form>
+    
+    </section>
+       <footer class="footer">
+        <h2 class="nombre__footer">Desarrollado por Oscar Cardona</h2>
+        <p class="fecha__footer">2023</p>
+       </footer>
+       <script type="module" src="./controllers/producto-controller.js"></script>
+       <script type="module" src="service/buscador_service.js"></script>
+    </body>
+</html>

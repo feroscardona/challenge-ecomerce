@@ -1,0 +1,23 @@
+.buscador__input{
+    display: none;
+}
+
+@media screen and (min-width: 767px) {
+    .buscador__input{
+        display: block;
+        padding: 8px 16px;
+        width: 272px;
+        height: 40px;
+        background: var(--buscador);
+        border-radius: 20px;
+        border: none;
+       
+    }
+}
+@media screen and (min-width: 1067px) {
+    .buscador__input{
+        width: 393px;
+        height: 40px;
+       
+    }
+}

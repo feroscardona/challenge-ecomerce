@@ -1,0 +1,15 @@
+.buscador__boton{
+    
+    background-color: var(--blancopuro);
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 767px) {
+    .buscador__boton{
+        position: relative;
+        left: -50px;
+        background-color: var(--buscador);
+    }
+}

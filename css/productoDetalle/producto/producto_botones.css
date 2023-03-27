@@ -1,0 +1,23 @@
+
+.producto__boton{
+    width: 133px;
+    height: 40px;
+    border: none;
+    background: var(--colorAzul);
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--blancopuro);
+    cursor: pointer;
+    margin-right: 5px;
+}
+@media screen and (min-width: 1068px) {
+    .procducto__container__boboton{
+        position: relative;
+        top: 170px;
+        left: -300px;
+    }
+    
+}

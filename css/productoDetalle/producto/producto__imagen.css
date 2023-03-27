@@ -1,0 +1,23 @@
+.producto__imagen{
+    position: relative;
+    top: -16px;
+    left: -16px;
+    width: 109%;
+    height: 192px;
+}
+
+@media screen and (min-width: 768px) {
+   .producto__imagen{
+    position: static;
+    width: 254px;
+    height: 157px;
+    
+   }
+}
+
+@media screen and (min-width: 1068px) {
+    .producto__imagen{
+        width: 560px;
+        height: 403px;
+    }
+}

@@ -1,0 +1,23 @@
+.producto__btn{
+   
+
+    padding: 12px 16px;
+    width: 151px;
+    height: 40px;    
+    background:var(--colorAzul);
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color:var(--blancopuro);
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1068px) {
+    .producto__btn{
+        width: 163px;
+    }
+}

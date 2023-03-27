@@ -1,0 +1,14 @@
+.formulario__boton{
+    width: 133px;
+    height: 40px;
+    border: none;
+    background: var(--colorAzul);
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--blancopuro);
+    cursor: pointer;
+
+}

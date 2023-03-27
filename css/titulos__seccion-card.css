@@ -1,0 +1,21 @@
+.titulos__seccion-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.titulos__seccion-card h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--tituloSeccion);
+}
+.titulos__seccion-card p a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4; 
+    vertical-align: middle;
+}

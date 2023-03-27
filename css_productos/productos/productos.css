@@ -1,0 +1,10 @@
+.productos{
+    padding: 1rem;
+    background-color: var(--blancoMarfil);
+}
+
+@media screen and (min-width: 768px) {
+    .productos{
+        padding: 2rem;
+    }
+}

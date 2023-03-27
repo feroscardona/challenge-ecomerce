@@ -1,0 +1,22 @@
+.info__lista {
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color:var(--tituloSeccion);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .info__lista{
+        align-items: start;
+        
+    }
+}

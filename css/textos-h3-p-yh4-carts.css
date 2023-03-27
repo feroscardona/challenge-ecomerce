@@ -1,0 +1,23 @@
+.contenedor__card li h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--tituloSeccion);
+    margin: 8px 0;
+}
+.contenedor__card li p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--tituloSeccion);
+    margin: 8px 0;
+}
+
+.contenedor__card li h4 a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--colorAzul);
+}

@@ -1,0 +1,34 @@
+.producto__name{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--tituloSeccion);
+    margin-bottom: 8px;
+}
+.producto__precio{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color:var(--tituloSeccion);
+    margin-bottom: 8px;
+}
+
+.producto__descripcion{
+    font-family:var(--relaway);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--tituloSeccion);
+}
+
+@media screen and (min-width: 1068px) {
+  .producto__name{
+    font-size: 22px;
+  }
+ 
+}

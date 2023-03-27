@@ -1,0 +1,14 @@
+.btn__cliente{
+    width: 100%;
+    height: 51px;
+    background: var(--colorAzul);
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}

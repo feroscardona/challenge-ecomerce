@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuTiendaproductos</title>
+    <link rel="stylesheet" href="css_agre_productos/reset.css">
+    <link rel="stylesheet" href="css_agre_productos/body.css">
+    <link rel="stylesheet" href="css_agre_productos/colores y fuentes.css">
+    <link rel="stylesheet" href="css_agre_productos/header.css">
+    <link rel="stylesheet" href="css_agre_productos/logo_img.css">
+    <link rel="stylesheet" href="css_agre_productos/buscador/buscador.css">
+    <link rel="stylesheet" href="css_agre_productos/buscador/buscador__contenedor.css">
+    <link rel="stylesheet" href="css_agre_productos/buscador/buscador__input.css">
+    <link rel="stylesheet" href="css_agre_productos/buscador/buscador__boton.css">
+    <link rel="stylesheet" href="css_agre_productos/login/login__boton.css">
+    <link rel="stylesheet" href="css_agre_productos/cliente/cliente.css">
+    <link rel="stylesheet" href="css_agre_productos/cliente/span__cliente.css">
+    <link rel="stylesheet" href="css_agre_productos/cliente/form__cliente.css">
+    <link rel="stylesheet" href="css_agre_productos/cliente/fieldset__cliente.css">
+    <link rel="stylesheet" href="css_agre_productos/cliente/input__cliente.css">
+    <link rel="stylesheet" href="css_agre_productos/cliente/btn__cliente.css">
+
+
+    <link rel="stylesheet" href="css_agre_productos/rodapie.css">
+    <link rel="stylesheet" href="css_agre_productos/info/info.css">
+    <link rel="stylesheet" href="css_agre_productos/info/info__imagen.css">
+    <link rel="stylesheet" href="css_agre_productos/info/info__lista.css">
+    <link rel="stylesheet" href="css_agre_productos/formulario/formulario.css">
+    <link rel="stylesheet" href="css_agre_productos/formulario/formulario__fielset.css">
+    <link rel="stylesheet" href="css_agre_productos/formulario/formulario__titulo.css">
+    <link rel="stylesheet" href="css_agre_productos/formulario/formulario__contenedor.css">
+    <link rel="stylesheet" href="css_agre_productos/formulario/formulario__input.css">
+    <link rel="stylesheet" href="css_agre_productos/formulario/formulario__boton.css">
+    <link rel="stylesheet" href="css_agre_productos/footer/footer.css">
+
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img class="logo_img" src="imagenes/Logo.svg" alt="logo"></a>
+        <form action="" class="buscador">
+            <fieldset class="buscador__contenedor">
+                <input class="buscador__input" type="search" placeholder="¿Qué deseas buscar?">
+                <button class="buscador__boton"><img src="imagenes/lupa-busqueda.svg" alt="buscar?"></button>
+            </fieldset>
+        </form>
+
+        <section class="login">
+            <a class="login__boton" href="./productos.html">Menú Administrador</a>
+        </section>
+    </header>
+    <section class="cliente">
+        <samp class="span__cliente">Agregar nuevo producto</samp>
+        <form action="" class="form__cliente" data-form>
+            <fieldset class="fieldset__cliente">
+                <input type="file" name="imagen" class="input__clie" placeholder="URL de la imagen" required data-img>
+                <input type="text" name="Categoria" class="input__cliente" placeholder="Categoría" maxlength="20" required data-Categoria>
+                <input type="text" name="name" class="input__cliente" placeholder="Nombre del producto"maxlength="30" required data-name>
+                <input type="number" step="0" pattern="[0-9]+" name="precio" class="input__cliente" placeholder="Precio del produtco" maxlength="20" required data-pesio>
+                <textarea class="input__cliente textarea" placeholder="Descripción del producto" name="descripcion" id="" cols="45" rows="3" maxlength="120" required  data-descripcion></textarea>
+            </fieldset>
+            <button type="submit" class="btn__cliente">Agregar producto</button>
+        </form>
+    </section>
+    <section class="rodapie">
+        <div class="info">
+            <img class="info__imagen" src="imagenes/Logo.png" alt="logo_img">
+            <ul class="info__lista">
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Política de privacidad</a></li>
+                <li><a href="">Programa de fidelidad</a></li>
+                <li><a href="">Nuestras Tiendas</a></li>
+                <li><a href="">Quiero ser franquiciado</a></li>
+                <li><a href="">Anúncie aquí</a></li>
+            </ul>
+        </div>
+      
+        
+        <form action="" class="formulario">
+            <fieldset class="formulario__fielset">
+                <legend class="formulario__titulo">Hable con nosotros</legend>
+                <div class="formulario__contenedor">
+                    <input class="formulario__input" type="text" name="name" id="name" placeholder="Nombre" required maxlength="40">
+                    <span class="formulario__spam"></span>
+                </div>
+                <div class="formulario__contenedor">
+                    <input class="formulario__input inpMensaje" type="text" name="mensaje" id="mensaje" placeholder="Escrive tu mensaje" required maxlength="120">
+                    <span class="formulario__spam"></span>
+                </div>
+                
+            </fieldset>
+            <button class="formulario__boton">Enviar mensaje</button>
+        
+        </form>
+    
+    </section>
+       <footer class="footer">
+        <h2 class="nombre__footer">Desarrollado por Oscar Cardona</h2>
+        <p class="fecha__footer">2023</p>
+       </footer>
+       <button></button>
+   
+    <script type="module" src="controllers/registroProduc.js"></script>
+   
+</body>
+</html>>

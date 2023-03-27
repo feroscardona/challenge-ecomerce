@@ -1,0 +1,18 @@
+.fieldset__cliente{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .fieldset__cliente{
+    width: 704px;
+  }
+}
+@media screen and (min-width: 1068px) {
+ .fieldset__cliente{
+    width: 559px;
+ }
+}

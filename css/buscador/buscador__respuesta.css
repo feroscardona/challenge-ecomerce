@@ -1,0 +1,20 @@
+.buscador__respuesta{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+
+}
+.buscador__respuesta li{
+    list-style-type: none;
+}
+
+.serch{
+display: flex;
+gap: 5px;
+font-size: 16px;
+
+
+}
+
+
+

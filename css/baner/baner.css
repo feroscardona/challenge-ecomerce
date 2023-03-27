@@ -1,0 +1,57 @@
+.baner{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../imagenes/banner-image.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    width: 100%;
+    min-height: 192px;
+    gap: 1rem;
+    
+}
+.baner h1{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--blancopuro);
+   
+
+}
+.baner h2{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 16px;
+    color: var(--blancopuro);
+}
+
+@media screen and (min-width: 768px) {
+    .baner{
+        height: 352px;
+        
+        
+        
+    }
+    .baner h1{
+        font-family: var(--relaway);
+    
+        font-size: 58px;
+        line-height: 61px;
+       
+    
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .baner{
+      
+        padding-left:  120px;
+    }
+    
+}

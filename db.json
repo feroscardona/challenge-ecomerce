@@ -1,0 +1,148 @@
+{
+  "producto": [
+    {
+      "imgUrl": "imagenes/posillo-cascoblanco.png",
+      "categoria": "starwars",
+      "name": "pocillo star wars",
+      "precio": "15.000",
+      "descripcion": "pocillo de star wars blanco echo en cerámica  ",
+      "id": "Xtd3ZIhmYT"
+    },
+    {
+      "imgUrl": "imagenes/legos-cascodard-SW.png",
+      "categoria": "starwars",
+      "name": "lego casco star wars",
+      "precio": "20.000",
+      "descripcion": "casco formado por piezas de lego ",
+      "id": "aYIA72mRp-"
+    },
+    {
+      "imgUrl": "imagenes/figura-yoda.png",
+      "categoria": "starwars",
+      "name": "figura yoda",
+      "precio": "150.000",
+      "descripcion": "Figura yoda de star wars",
+      "id": "iLvTvowNWu"
+    },
+    {
+      "imgUrl": "imagenes/mandoXbox.png",
+      "categoria": "consolas",
+      "name": "control Xbox",
+      "precio": "120.000",
+      "descripcion": "control Xbox 360 blanco",
+      "id": "oL7-Zo0ZdY"
+    },
+    {
+      "imgUrl": "imagenes/camiseta-atari.png",
+      "categoria": "diversos",
+      "name": "Camisa Atari",
+      "precio": "40.000",
+      "descripcion": "camiseta logo Atari ",
+      "id": "o8MAHLGint"
+    },
+    {
+      "imgUrl": "imagenes/figura stornturper.png",
+      "categoria": "starwars",
+      "name": "figura stormtrooper",
+      "precio": "70.000",
+      "descripcion": "figura coleccionable stormtrooper",
+      "id": "3SqjBHw_CB"
+    },
+    {
+      "imgUrl": "imagenes/figura-baby-yoda.png",
+      "categoria": "starwars",
+      "name": "figura mini yoda",
+      "precio": "100.000",
+      "descripcion": "figura mini yoda star wars",
+      "id": "Mb3RtFASS2"
+    },
+    {
+      "imgUrl": "imagenes/figura-Kylo-Ren.png",
+      "categoria": "starwars",
+      "name": "poster kylo ren ",
+      "precio": "200.000",
+      "descripcion": "poster kylo ren star wars",
+      "id": "f_Vnvhtuyn"
+    },
+    {
+      "imgUrl": "imagenes/consolaPs5.png",
+      "categoria": "consolas",
+      "name": "play station 5 ",
+      "precio": "3.325.000",
+      "descripcion": "play statition 5 color azul, incluye 1 control y 1 juego call of duty warzone 2",
+      "id": "mj_hwjqfn9"
+    },
+    {
+      "imgUrl": "imagenes/consolaNintendo.png",
+      "categoria": "consolas",
+      "name": "consola Nintendo family ",
+      "precio": "90.000",
+      "descripcion": "consola retro Nintendo color blanco. los juegos se venden por separado",
+      "id": "DbDmdEvXPP"
+    },
+    {
+      "imgUrl": "imagenes/mandodosSwich.png",
+      "categoria": "consolas",
+      "name": "josticks Nintendo Ds",
+      "precio": "300.000",
+      "descripcion": "Josticks para consola Nintendo Ds",
+      "id": "AkA35LeXjt"
+    },
+    {
+      "imgUrl": "imagenes/consolaXbox.png",
+      "categoria": "consolas",
+      "name": "consola Xbox series X",
+      "precio": "3.200.000",
+      "descripcion": "consola Xbox series X de ultima generación, incluye control y accesorios y game pass por 3 meses.",
+      "id": "d0HP8oZrk6"
+    },
+    {
+      "imgUrl": "imagenes/camiseta-control.png",
+      "categoria": "diversos",
+      "name": "camiseta SNES ",
+      "precio": "50.000",
+      "descripcion": "camiseta gris con estampado mando SNES",
+      "id": "7FQItIeNTU"
+    },
+    {
+      "imgUrl": "imagenes/figura-sonic.png",
+      "categoria": "diversos",
+      "name": "Figura Sonic",
+      "precio": "65.000",
+      "descripcion": "figura personaje sonic ",
+      "id": "KtLoNMvjC4"
+    },
+    {
+      "imgUrl": "imagenes/reloj-despertador.png",
+      "categoria": "diversos",
+      "name": "Reloj despertador  ",
+      "precio": "80.000",
+      "descripcion": "Reloj despertador rosado marca acme no te despertara de tus mas grandiosos sueños ",
+      "id": "1xFrGBloeO"
+    },
+    {
+      "imgUrl": "imagenes/gafas-realidad-virtual.png",
+      "categoria": "diversos",
+      "name": "oculus quest 3",
+      "precio": "2.300.000",
+      "descripcion": "Gafas realidad virtual oculus quest 3 ",
+      "id": "cL_OLX8Vuy"
+    },
+    {
+      "imgUrl": "imagenes/pikachu.png",
+      "categoria": "diversos",
+      "name": "Muñeco de peluche ",
+      "precio": "130.000",
+      "descripcion": "Pikachu de peluche tamaño promedio 1.20cm x 80cm",
+      "id": "6C1_4XIS2Y"
+    },
+    {
+      "imgUrl": "imagenes/consolaGameboy.png",
+      "categoria": "consolas",
+      "name": "gamy boy color",
+      "precio": "500.000",
+      "descripcion": "Game boy color incluye  3 juegos ",
+      "id": "t_2FST2wwN"
+    }
+  ]
+}

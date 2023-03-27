@@ -1,0 +1,7 @@
+.span__cliente{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color:var(--tituloSeccion);
+}

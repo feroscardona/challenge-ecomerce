@@ -1,0 +1,9 @@
+.legend__inicioSesion{
+    font-family: var(--relaway);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color:var(--tituloSeccion);
+    text-align: center;
+}
