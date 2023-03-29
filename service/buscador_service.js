@@ -53,7 +53,7 @@ function  filtrar (imgUrl,name,id){
   
 }
 document.querySelector("body").addEventListener("click", function(event) {
-    console.log("Se hizo clic en el body!");
+    ;
     const ulnode = document.querySelector("[data-busqueda]");
     ulnode.remove();
     const lista = document.createElement("lu"); 
