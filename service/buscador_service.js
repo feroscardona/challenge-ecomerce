@@ -62,7 +62,7 @@ document.querySelector("body").addEventListener("click", function(event) {
     lista.classList.add("buscador__respuesta")
     const divCrea = document.querySelector("[data-crea]");
     divCrea.appendChild(lista)
-    console.log(divCrea)
+    
 });
 
 
