@@ -21,7 +21,7 @@ input.addEventListener("keydown",(evento)=>{
       }
 })
 
-
+const emptyNode = document.createElement("li");
 function  filtrar (imgUrl,name,id){
 
     const busqueda =  input.value.toLowerCase();
@@ -43,9 +43,7 @@ function  filtrar (imgUrl,name,id){
             return linea
             
         }else{
-            const linea = document.createElement("li"); 
-            
-            return linea 
+            return emptyNode
             
         } 
         
